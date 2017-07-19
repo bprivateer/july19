@@ -80,12 +80,18 @@ tbody > tr > td{
 }
 
 td{
-  border: 2px solid #1fabe5;
+  border: 2px solid #046c97;
+
+}
+td img{
+  height: 60%;
+  width: 60;
+  MARGIN: 20px;
 }
 table{
   border-collapse: collapse;
-  border-bottom-color: : grey;
-  border-width:thin;
+  border-width: thin;
+  margin: 20px;
 
 }
 
