@@ -32,6 +32,7 @@ body > div > header{
   font-family: arial;
   padding: 10px;
   border-style: solid;
+  border-radius: 5px;
   border-width: thin;
   border-color:  #fff;
   display:inline;
@@ -90,9 +91,12 @@ table{
 
 form{
   background-color: #dddddd;
+  padding: 30px;
+  border-radius: 5px;
 }
 .name{
   background-color: #ff8532;
+  border-radius: 5px;
   text-align: center;
   color: white;
   font-weight: bold;
