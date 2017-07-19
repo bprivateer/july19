@@ -1,0 +1,74 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body{
+  font-family:arial;
+
+  padding: 20px;
+
+}
+body > div > header{
+  background-color: #ff8523;
+  margin: 0px;
+  padding: 30px;
+}
+
+.main_navigation a{
+  font-size: 14px;
+  font-family: arial;
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-spacing: height: 40px;
+  border-color:  #fff;
+  display:inline;
+  font-weight: bold;
+  color: white;
+  background-color: #ff8523;
+}
+
+h2{
+  font-size: 30px;
+  color: #1fabe5;
+  background-color: #fff;
+}
+h3{
+  color:#1fabe5;
+}
+ul{
+  font-weight: bold;
+  border-bottom-width: medium;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+  padding-bottom: 50px;
+}
+
+
+
+p a{
+  color:#1fabe5;
+}
+
+thead > tr >td{
+  color:white;
+  background-color: #1fabe5;
+  border-color: black;
+  border-width: thin;
+
+}
+
+tbody > tr > td{
+  border-color: #1fabe5;
+  border-width: thin;
+}
