@@ -15,27 +15,33 @@ colors:
 body{
   font-family:arial;
 
-  padding: 20px;
+
 
 }
 body > div > header{
   background-color: #ff8523;
-  margin: 0px;
   padding: 30px;
+
+}
+#logo img{
+  margin-bottom: 20px;
 }
 
 .main_navigation a{
   font-size: 14px;
   font-family: arial;
-  padding: 20px;
+  padding: 10px;
   border-style: solid;
   border-width: thin;
-  border-spacing: height: 40px;
   border-color:  #fff;
   display:inline;
   font-weight: bold;
   color: white;
   background-color: #ff8523;
+}
+
+#page_content{
+  padding:10px;
 }
 
 h2{
@@ -63,12 +69,44 @@ p a{
 thead > tr >td{
   color:white;
   background-color: #1fabe5;
-  border-color: black;
-  border-width: thin;
+
 
 }
 
 tbody > tr > td{
-  border-color: #1fabe5;
-  border-width: thin;
+
+
+}
+
+td{
+  border: 2px solid #1fabe5;
+}
+table{
+  border-collapse: collapse;
+  border-bottom-color: : grey;
+  border-width:thin;
+
+}
+
+form{
+  background-color: #dddddd;
+}
+.name{
+  background-color: #ff8532;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+
+  padding: 20px;
+}
+.city_container{
+  background-color: #dddddd;
+  padding:10px;
+  margin: 30px;
+
+
+}
+.submit_container{
+  background-color: #dddddd;
+  margin: 30px;
 }
