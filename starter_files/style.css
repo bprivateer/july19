@@ -81,6 +81,7 @@ tbody > tr > td{
 
 td{
   border: 2px solid #046c97;
+  border-width: 2px;
 
 }
 td img{
@@ -90,7 +91,7 @@ td img{
 }
 table{
   border-collapse: collapse;
-  border-width: thin;
+
   margin: 20px;
 
 }
@@ -99,6 +100,7 @@ form{
   background-color: #dddddd;
   padding: 30px;
   border-radius: 5px;
+  
 }
 .name{
   background-color: #ff8532;
@@ -106,17 +108,35 @@ form{
   text-align: center;
   color: white;
   font-weight: bold;
-
   padding: 20px;
+}
+
+input{
+  height: 33px;
+  width: 200px;
 }
 .city_container{
   background-color: #dddddd;
   padding:10px;
   margin: 30px;
 
+}
+label{
+  font-weight: bold;
+
+}
+ textarea{
+   width:90%;
+   border-color: #1fabe5;
+ }
 
 }
 .submit_container{
   background-color: #dddddd;
   margin: 30px;
+}
+.submit_container > input{
+  background-color: #1fabe5;
+  border-radius: 5px;
+  color:white;
 }
